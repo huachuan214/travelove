@@ -93,92 +93,29 @@
       <div class="main-inner">
         <div id="content" class="content">
           
+
   <div id="posts" class="posts-expand">
     
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/travelove/2015/05/19/travel-note/">
-                	我的丽江，香格里拉，泸沽湖，大理，昆明游。
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-         	 发表于 2015-05-23
-        </span>
-
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/travelove/2015/05/19/travel-note/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="/travelove/2015/05/19/paper-note-object-proposal-review-pami15/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      <p> 一首歌，一次旅程。一段情，一个地方。</p>
-      <p>云南，已经是第三次前往，不知道为何，就是向往那片土地。</p>
-      <p>听着郝云的“去大理”，身未动心已远。已经第三次来大理，没理由的就是喜欢大理。</p>
-        
-          <div class="post-more-link text-center">
-            <a class="btn" href="/travelove/2015/05/23/travel-note/">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          
-      
-    </div>
-
-    <div class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/travelove/tags/Computer-Vision/"> #洱海 </a>
-          
-            <a href="/travelove/tags/Object-Proposal/"> #大理 </a>
-            
-            <a href="/travelove/tags/Object-Proposal/"> #香格里拉 </a>
-          
+    
+      <div class="tag-cloud">
+        <div class="tag-cloud-title">
+            目前共计 3 个标签
         </div>
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-  
-  <div class="pagination">
-    <span class="page-number current">1</span>
-    <a class="page-number" href="/travelove/page/2/">2</a>
-    <span class="space">&hellip;</span>
-    <a class="page-number" href="/travelove/page/7/">7</a>
-    <a class="extend next" rel="next" href="/travelove/page/2/">&raquo;</a>
+        <div class="tag-cloud-tags">
+          <a href="/travelove/tags/yunnan/EH/" style="font-size: 28.2px; color: #242424">洱海</a>
+          <a href="/travelove/tags/yunnan/DaLi/" style="font-size: 12px; color: #ccc">大理</a>
+          <a href="/travelove//tags/yunnan/shangrila/" style="font-size: 30px; color: #111">香格里拉</a>
+          <!-- <a href="/travelove/tags/Image-Processing/" style="font-size: 21px; color: #6f6f6f">Image Processing</a>
+          <a href="/travelove/tags/Low-Level/" style="font-size: 22.8px; color: #5c5c5c">Low Level</a><a href="/travelove/tags/MOOC/" style="font-size: 19.2px; color: #8331">MOOC</a>
+          <a href="/travelove/tags/Machine-Learning/" style="font-size: 24.6px; color: #494949">Machine Learning</a><a href="/travelove/tags/OCR/" style="font-size: 12px; color: #ccc">OCR</a>
+          <a href="/travelove/tags/Object-Proposal/" style="font-size: 13.8px; color: #b9b9b9">Object Proposal</a><a href="/travelove/tags/SVM/" style="font-size: 21px; color: #6f6f6f">SVM</a>
+          <a href="/travelove/tags/Sparse-Coding/" style="font-size: 12px; color: #ccc">Sparse Coding</a><a href="/travelove/tags/liblinear/" style="font-size: 12px; color: #ccc">liblinear</a>
+          <a href="/travelove/tags/linux/" style="font-size: 15.6px; color: #a7a7a7">linux</a><a href="/travelove/tags/mindmap/" style="font-size: 13.8px; color: #b9b9b9">mindmap</a>
+          <a href="/travelove/tags/python/" style="font-size: 12px; color: #ccc">python</a><a href="/travelove/tags/tools/" style="font-size: 26.4px; color: #363636">tools</a>
+          <a href="/travelove/tags/版本管理/" style="font-size: 13.8px; color: #b9b9b9">版本管理</a><a href="/travelove/tags/读书笔记/" style="font-size: 17.4px; color: #949494">读书笔记</a> -->
+        </div>
+      </div>
+    
   </div>
 
 
@@ -190,7 +127,7 @@
 
       
   
-  <div class="sidebar-toggle">
+ <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
       <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
       <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
@@ -285,7 +222,7 @@
       <div class="footer-inner">
         <div class="copyright">
   
-  &copy; &nbsp;  2015-Today
+  &copy; &nbsp;  2015-today
   <span class="with-love">
     <i class="icon-heart"></i>
   </span>
@@ -302,6 +239,8 @@
     NexT.Mist
   </a>
 </div>
+
+
 
 
 
@@ -328,7 +267,7 @@
         var $imageWrapLink = $image.parent('a');
 
         if ($imageWrapLink.size() < 1) {
-          $imageWrapLink = $image.wrap('<a href="/travelove' + this.getAttribute('src') + '"></a>').parent('a');
+          $imageWrapLink = $image.wrap('<a href="/travelove/' + this.getAttribute('src') + '"></a>').parent('a');
         }
         $imageWrapLink.addClass('fancybox');
       });
@@ -546,26 +485,6 @@
 
 
   
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"xuchuanhua"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-
 
   
   

@@ -93,93 +93,60 @@
       <div class="main-inner">
         <div id="content" class="content">
           
-  <div id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-collapse">
+    <span class="archive-move-on"></span>
+
+    <span class="archive-page-counter">
+      
+      
+       
+        
+      好! 目前共计 1 篇日志。 继续努力。
+    </span>
+
     
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
 
       
       
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/travelove/2015/05/19/travel-note/">
-                	我的丽江，香格里拉，泸沽湖，大理，昆明游。
-              </a>
-            
-          
-        </h1>
       
 
-      <div class="post-meta">
-        <span class="post-time">
-         	 发表于 2015-05-23
-        </span>
-
+      
         
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/travelove/2015/05/19/travel-note/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="/travelove/2015/05/19/paper-note-object-proposal-review-pami15/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      <p> 一首歌，一次旅程。一段情，一个地方。</p>
-      <p>云南，已经是第三次前往，不知道为何，就是向往那片土地。</p>
-      <p>听着郝云的“去大理”，身未动心已远。已经第三次来大理，没理由的就是喜欢大理。</p>
-        
-          <div class="post-more-link text-center">
-            <a class="btn" href="/travelove/2015/05/23/travel-note/">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          
-      
-    </div>
-
-    <div class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/travelove/tags/Computer-Vision/"> #洱海 </a>
-          
-            <a href="/travelove/tags/Object-Proposal/"> #大理 </a>
-            
-            <a href="/travelove/tags/Object-Proposal/"> #香格里拉 </a>
-          
+        <div class="collection-title">
+          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
         </div>
       
-
       
 
       
-      
-        <div class="post-eof"></div>
-      
+
+  <div class="post post-type-normal">
+    <div class="post-header">
+
+      <div class="post-title">
+        
+            <a class="post-title-link" href="/travelove/2015/05/23/travel-note/">
+             我的丽江，香格里拉，泸沽湖，大理，昆明游。
+            </a>
+        
+      </div>
+
+      <div class="post-meta">
+        <span class="post-time"> 05-23 </span>
+      </div>
+
     </div>
   </div>
+   
 
+  </div>
 
   
   <div class="pagination">
-    <span class="page-number current">1</span>
-    <a class="page-number" href="/travelove/page/2/">2</a>
-    <span class="space">&hellip;</span>
-    <a class="page-number" href="/travelove/page/7/">7</a>
-    <a class="extend next" rel="next" href="/travelove/page/2/">&raquo;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/travelove/archives/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/travelove/archives/page/7/">7</a><a class="extend next" rel="next" href="/travelove/archives/page/2/">&raquo;</a>
   </div>
+
 
 
         </div>
@@ -285,7 +252,7 @@
       <div class="footer-inner">
         <div class="copyright">
   
-  &copy; &nbsp;  2015-Today
+  &copy; &nbsp;  2015-today
   <span class="with-love">
     <i class="icon-heart"></i>
   </span>
@@ -308,6 +275,8 @@
 
 
 
+
+
       </div>
     </div>
 
@@ -318,6 +287,12 @@
 
   
   
+  
+    <script type="text/javascript">
+      postMotionOptions = {stagger: 100, drag: true};
+    </script>
+  
+
 
   
   <script type="text/javascript" src="/travelove/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -328,7 +303,7 @@
         var $imageWrapLink = $image.parent('a');
 
         if ($imageWrapLink.size() < 1) {
-          $imageWrapLink = $image.wrap('<a href="/travelove' + this.getAttribute('src') + '"></a>').parent('a');
+          $imageWrapLink = $image.wrap('<a href="/travelove/' + this.getAttribute('src') + '"></a>').parent('a');
         }
         $imageWrapLink.addClass('fancybox');
       });
@@ -512,6 +487,12 @@
 
 
   
+  
+    <script type="text/javascript" id="motion.page.archive">
+      $('.archive-year').velocity('transition.slideLeftIn');
+    </script>
+  
+
 
   <script type="text/javascript">
     var HEXO_SIDEBAR_CONFIGURATION = 'post';
@@ -546,26 +527,6 @@
 
 
   
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"xuchuanhua"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-
 
   
   
